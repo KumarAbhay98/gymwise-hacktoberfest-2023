@@ -1,6 +1,7 @@
 
 
-![Uploading gymwise.png…]()
+<img width="946" alt="gymwise" src="https://github.com/KumarAbhay98/gymwise-hacktoberfest-2023/assets/92244303/1c998c8d-9513-4485-86b5-69a79995d2e6">
+
 
 # GYMWISE
 

@@ -1,4 +1,6 @@
-<p align="center"><img src="./images/main_bg.jpg" height="50%" width="80%" /></p>
+
+
+![Uploading gymwise.png…]()
 
 # GYMWISE
 

@@ -1,34 +1,55 @@
-**Repository Name:** GYMWISE
+# Contributing Guidelines
 
-**Author:** Abhay Kumar
+Welcome to GYMWISE! We're excited to have you as a contributor. Before you start, please read and follow these guidelines to ensure a smooth and productive contribution process.
 
-**Hacktoberfest 2023 Contribution Guide**
+## Getting Started
 
-Welcome to the "GYMWISE" Hacktoberfest 2023 project! We appreciate your interest in contributing to our open-source fitness platform. Before you get started, please read this guide to understand how you can contribute effectively and make a meaningful impact on our project.
+1. Fork the repository on GitHub.
+2. Clone your forked repository to your local system.
+3. Create a new branch for your work.
+4. Make your changes and ensure they align with the project's goals and guidelines.
 
-### How to Contribute
+## Contribution Flow
 
-```shell
-# Create a New Branch:
-# Before making changes, create a new branch for your work. Use a descriptive branch name to reflect the nature of your contribution.
-git checkout -b feature/your-feature-name
+Here's an outline of the contributor's workflow:
 
-# Make Your Changes:
-# Work on your assigned issue or a new feature. Ensure that your code follows our coding standards and project guidelines.
+1. Create a separate branch from the `main` branch to base your work.
+2. Make commits in logical units.
+3. Write clear and concise commit messages using the provided format (see [Commit Messages](#commit-messages)).
+4. Push your changes to a topic branch in your fork of the repository.
+5. Proofread your content before submitting.
+6. Fetch the latest updates from the upstream repository and ensure your fork/branch is conflict-free.
+7. Submit a pull request (PR) to the original repository.
 
-# Commit Your Changes:
-# Commit your changes with a clear and concise commit message.
-git commit -m "Add feature: your feature description"
+### Commit Messages
 
-# Push Your Changes:
-# Push your changes to your fork on GitHub.
-git push origin feature/your-feature-name
+Please follow this format for writing commit messages:
 
-# Create a Pull Request (PR):
-# Go to your forked repository on GitHub and click the "New Pull Request" button. Ensure that your PR targets the main branch of the "GYMWISE" repository. Provide a clear and detailed description of your changes.
+title: One line description of your change
+<Blank Line>
+description: An optional description of your changes
 
-# Review and Collaboration:
-# Our team will review your PR. Be ready to make necessary changes based on feedback. Engage in discussions to improve your contributions.
 
-# PR Approval:
-# Once your PR meets the project's standards, it will be merged into the main repository. Congratulations on your contribution!
+## Pull Request
+
+When you're ready to submit your changes:
+
+1. Create a pull request (PR).
+2. Enable the checkbox to allow maintainer edits if necessary.
+3. A team member will review your PR and may ask questions or request additional information.
+4. Make any requested changes and mark each conversation as resolved.
+5. If you encounter merge issues, consult this [git tutorial](https://github.com/skills/resolve-merge-conflicts) for guidance on resolving conflicts.
+
+## Code of Conduct
+
+We value a respectful and inclusive community. Please follow our Code of Conduct and be kind and considerate in your interactions within our project. Harassment or disrespectful behavior will not be tolerated.
+
+### Our Pledge
+
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+### Our Responsibilities
+
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this Code of Conduct, or to temporarily or permanently ban any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+
+Thanks for your contributions! Happy contributing to GYMWISE during Hacktoberfest 2023! We look forward to your valuable contributions.

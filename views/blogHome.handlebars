@@ -1,0 +1,26 @@
+<div class="container p-5">
+    <div class="search-container p-5">
+        <input type="text" id="blogSearchInput" class="form-control" placeholder="Search for blog posts...">
+    </div>
+    <div class="row">
+        {{!-- Loop through each blog post --}}
+        {{#each blogs}}
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-5 gap-2">
+            <div class="blog-thumbnail">
+                <a href="/blogpost/{{this.slug}}">
+                    <img src="{{src}}" class="blogThumbnail-image" alt="{{this.title}}">
+                </a>
+                <div class="blog-info">
+                    <a href="/blogpost/{{this.slug}}"><h4>{{this.title}}</h4></a>
+                    <span class="small text-muted text-left">-{{this.author}}</span> |
+                    <span class="small text-muted text-right">{{this.date}}</span>
+                    <p class="lead text-black">{{this.excerpt}}</p>
+                    
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+

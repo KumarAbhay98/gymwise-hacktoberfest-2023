@@ -15,7 +15,7 @@ Here's an outline of the contributor's workflow:
 
 1. Create a separate branch from the `main` branch to base your work.
 2. Make commits in logical units.
-3. Write clear and concise commit messages using the provided format (see [Commit Messages](#commit-messages)).
+3. Write clear and concise commit messages using the provided format (see [Commit Messages](#commit-messages).
 4. Push your changes to a topic branch in your fork of the repository.
 5. Proofread your content before submitting.
 6. Fetch the latest updates from the upstream repository and ensure your fork/branch is conflict-free.
@@ -26,8 +26,9 @@ Here's an outline of the contributor's workflow:
 Please follow this format for writing commit messages:
 
 title: One line description of your change
-<Blank Line>
+
 description: An optional description of your changes
+
 
 
 ## Pull Request
@@ -52,4 +53,9 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this Code of Conduct, or to temporarily or permanently ban any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
+## Additional Blog Contribution
+
+We welcome quality blogs from our contributors. If you'd like to contribute a blog post, please follow the structure and guidelines provided in the [data folder](data/). Ensure your content is original and not AI-generated.
+
 Thanks for your contributions! Happy contributing to GYMWISE during Hacktoberfest 2023! We look forward to your valuable contributions.
+
